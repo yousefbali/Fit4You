@@ -38,7 +38,7 @@ drop = OptionMenu( root , clicked , *options )
 drop.pack() 
 
 # Create button, it will change label text 
-button = Button( root , text = "Search" , height = 3, width = 5 ).pack() 
+button = Button( root , text = "Add" , height = 3, width = 5 ).pack() 
 
 # Create Label 
 label = Label( root , text = " " ) 
